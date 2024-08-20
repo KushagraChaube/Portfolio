@@ -24,12 +24,6 @@
 
 ****************************************************/
 
-
-document.getElementById('emailButton').onclick = function() {
-        window.location.href = 'mailto:Kushagrachaube1203@gmail.com';
-    };
-
-
 (function ($) {
 	"use strict";
 
