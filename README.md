@@ -11,22 +11,22 @@ The Portfolio is designed with multiple loader effects and animations. This intr
 Used Multiple JavaScript and Bootstrap bundles.
 
 ## CSS3 Bundels and Packages
-"bootstrap.min.css"
-"font-awesome-pro.min.css"
-"nice-select.css"
-"backToTop.css"
+"bootstrap.min.css",
+"font-awesome-pro.min.css",
+"nice-select.css",
+"backToTop.css",
 "odometer-theme-default.css"
 
 
 ## JavaScript Bundels and Packages
-"jquery.min.js"
-"bootstrap.bundle.min.js"
-"backToTop.js"
-"number.scroll.js"
-"wow.min.js"
-"gsap.min.js"
-"ScrollTrigger.min.js"
-"lenis.min.js"
+"jquery.min.js",
+"bootstrap.bundle.min.js",
+"backToTop.js",
+"number.scroll.js",
+"wow.min.js",
+"gsap.min.js",
+"ScrollTrigger.min.js",
+"lenis.min.js",
 "odometer.min.js"
 
 
