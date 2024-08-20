@@ -1,0 +1,90 @@
+[
+    {
+        "empId": "KUSH6480",
+        "firstName": "Kushagra",
+        "lastName": "Chaube",
+        "mobile": "9301806480",
+        "dob": "2003-03-12",
+        "place": "Bhopal",
+        "aadhar": "123412341234",
+        "pan": "ABCDE1234F",
+        "registrationDate": "2024-07-26"
+    },
+    {
+        "empId": "ASHI1234",
+        "firstName": "Ashi",
+        "lastName": "Parashar",
+        "mobile": "9001801234",
+        "dob": "2001-11-02",
+        "place": "Bhopal",
+        "aadhar": "123412341234",
+        "pan": "ABCDE1234F",
+        "registrationDate": "2024-07-26"
+    },
+    {
+        "empId": "UKMS7890",
+        "firstName": "Ukmesh",
+        "lastName": "Meeena",
+        "mobile": "9301807890",
+        "dob": "2003-03-12",
+        "place": "Bhopal",
+        "aadhar": "123412341234",
+        "pan": "ABCDE1234F",
+        "registrationDate": "2024-07-26"
+    },
+    {
+        "empId": "ANAN4567",
+        "firstName": "Ananat",
+        "lastName": "Saxena",
+        "mobile": "9301804567",
+        "dob": "2003-03-12",
+        "place": "Bhopal",
+        "aadhar": "123412341234",
+        "pan": "ABCDE1234F",
+        "registrationDate": "2024-07-26"
+    },
+    {
+        "empId": "DIVY0000",
+        "firstName": "Divyansh",
+        "lastName": "Agrawal",
+        "mobile": "9301800000",
+        "dob": "2003-03-12",
+        "place": "Bhopal",
+        "aadhar": "123412341234",
+        "pan": "ABCDE1234F",
+        "registrationDate": "2024-07-26"
+    },
+    {
+        "empId": "SAKS9900",
+        "firstName": "Sakshi",
+        "lastName": "Wanode",
+        "mobile": "9301809900",
+        "dob": "2003-03-12",
+        "place": "Bhopal",
+        "aadhar": "123412341234",
+        "pan": "ABCDE1234F",
+        "registrationDate": "2024-07-26"
+    },
+    {
+        "empId": "AKAS7788",
+        "firstName": "Akash",
+        "lastName": "Singh",
+        "mobile": "9301807788",
+        "dob": "2003-03-12",
+        "place": "Bhopal",
+        "aadhar": "123412341234",
+        "pan": "ABCDE1234F",
+        "registrationDate": "2024-07-26"
+    },
+    {
+        "empId": "MAHE6543",
+        "firstName": "Mahesh",
+        "lastName": "Choudhary",
+        "mobile": "9301806543",
+        "dob": "2003-03-12",
+        "place": "Bhopal",
+        "aadhar": "123412341234",
+        "pan": "ABCDE1234F",
+        "registrationDate": "2024-07-26"
+    }
+]

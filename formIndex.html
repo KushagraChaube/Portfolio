@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Site Title -->
+    <title>Gerold - Personal Portfolio HTML5 Template</title>
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="assets/img/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png" />
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome-pro.min.css" />
+    <link rel="stylesheet" href="assets/css/flaticon_gerold.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/backToTop.css" />
+    <link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/light-mode.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <style>
+        .main-container {
+            padding-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Preloader Area Start -->
+    <div class="preloader">
+        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+            <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+
+        <div class="preloader-heading">
+            <div class="load-text">
+                <span>L</span>
+                <span>o</span>
+                <span>a</span>
+                <span>d</span>
+                <span>i</span>
+                <span>n</span>
+                <span>g</span>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Area End -->
+
+    <!-- start: Back To Top -->
+    <div class="progress-wrap" id="scrollUp">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- end: Back To Top -->
+
+    <!-- HEADER START -->
+    <header class="tj-header-area header-absolute">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap align-items-center">
+                    <div class="logo-box">
+                        <a href="index.html">
+                            <img src="assets/img/logo/logo.png" alt="" />
+                        </a>
+                    </div>
+
+                    <div class="header-info-list d-none d-md-inline-block">
+                        <ul class="ul-reset">
+                            <li><a href="Kushagrachaube@gmail.com">Kushagrachaube@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-menu" id="headerMenu">
+                        <nav>
+                            <ul>
+                                <li class="has-dropdown current-menu-ancestor">
+                                    <a class="current-menu-item" href="index.html">Home</a>
+                                    <ul class="sub-menu">
+                                        <li class="has-dropdown current-menu-ancestor">
+                                            <a href="index.html">Dark Mode</a>
+                                        </li>
+                                        <li class="has-dropdown">
+                                            <a href="index-light.html">Light Mode</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="formIndex.html">Registration</a></li>
+                                <li><a href="admin.html">Employee Data</a></li>
+                                <li class="has-dropdown">
+                                    <a href="blog.html">Blog</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="#">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Blog Details</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="mobile-menu d-lg-none"></div>
+                    <div class="header-button">
+                        <a href="#" class="btn tj-btn-primary">Hire me!</a>
+                    </div>
+                    <div class="menu-bar d-lg-none">
+                        <button>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="tj-header-area header-2 header-sticky sticky-out">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap align-items-center">
+                    <div class="logo-box">
+                        <a href="index.html">
+                            <img src="assets/img/logo/logo.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="header-info-list d-none d-md-inline-block">
+                        <ul class="ul-reset">
+                            <li><a href="mailto:mail@gerolddesign.com">Kushagrachaube@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-menu">
+                        <nav>
+                            <ul>
+                                <li class="has-dropdown current-menu-ancestor">
+                                    <a class="current-menu-item" href="index.html">Home</a>
+                                    <ul class="sub-menu">
+                                        <li class="has-dropdown current-menu-ancestor">
+                                            <a href="index.html">Dark Mode</a>
+                                        </li>
+                                        <li class="has-dropdown">
+                                            <a href="index-light.html">Light Mode</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="form/formIndex.html">Registration</a></li>
+                                <li><a href="form/admin.html">Employee Data</a></li>
+                                <li class="has-dropdown">
+                                    <a href="blog.html">Blog</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="#">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Blog Details</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="mobile-menu d-lg-none"></div>
+                    <div class="header-button">
+                        <a href="#" class="btn tj-btn-primary">Hire me!</a>
+                    </div>
+                    <div class="menu-bar d-lg-none">
+                        <button>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+
+    <main class="site-content" id="content">
+        <section>
+            <div class="container main-container mt-5">
+                <h1 class="text-center">Employee Registration</h1>
+                <h2 class="text-center mb-4">Let's work together!</h2>
+
+                <form id="employeeRegistration" class="needs-validation" novalidate>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstName" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="mobile" class="form-label">Mobile</label>
+                            <input type="tel" class="form-control" id="mobile" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="dob" class="form-label">Date of Birth</label>
+                            <input type="date" class="form-control" id="dob" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="place" class="form-label">Place</label>
+                            <input type="text" class="form-control" id="place" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="aadhar" class="form-label">Aadhar</label>
+                            <input type="text" class="form-control" id="aadhar" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="pan" class="form-label">PAN</label>
+                            <input type="text" class="form-control" id="pan" required>
+                        </div>
+                        <div class="col-12">
+                            <label for="documents" class="form-label">Attach Documents</label>
+                            <input type="file" class="form-control" id="documents" multiple>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+
+                <div id="messageBox" class="mt-4 alert alert-success" style="display: none;"></div>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER AREA START -->
+    <footer class="tj-footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="footer-logo-box">
+                        <a href="#"><img src="assets/img/logo/logo.png" alt="" /></a>
+                    </div>
+                    <div class="footer-menu">
+                        <nav>
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Portfolios</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="copy-text">
+                        <p>&copy; 2024 All rights reserved by <a href="#" target="_blank">Kushagra Chaube</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER AREA END -->
+
+    <!-- JS here -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/backToTop.js"></script>
+    <script src="assets/js/number.scroll.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/lenis.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const ageValidationData = {
+            "minimumAge": 18
+        };
+
+        function calculateAge(birthday) {
+            const ageDifMs = Date.now() - new Date(birthday).getTime();
+            const ageDate = new Date(ageDifMs);
+            return Math.abs(ageDate.getUTCFullYear() - 1970);
+        }
+
+        function isValidAge(birthday) {
+            const age = calculateAge(birthday);
+            return age >= ageValidationData.minimumAge;
+        }
+
+        function generateEmpId(firstName, mobile) {
+            return firstName.substring(0, 4).toUpperCase() + mobile.slice(-4);
+        }
+
+        function getEmployees() {
+            const employees = localStorage.getItem('employees');
+            return employees ? JSON.parse(employees) : [];
+        }
+
+        function saveEmployees(employees) {
+            localStorage.setItem('employees', JSON.stringify(employees));
+        }
+
+        document.getElementById('employeeRegistration').addEventListener('submit', function (e) {
+            e.preventDefault();     //preventing unusual submission(request to server or refreshing the page)
+            e.stopPropagation();    //event listeners on parent elements won’t be triggered 
+
+            if (this.checkValidity()) {
+                const firstName = document.getElementById('firstName').value;
+                const lastName = document.getElementById('lastName').value;
+                const mobile = document.getElementById('mobile').value;
+                const dob = document.getElementById('dob').value;
+                const place = document.getElementById('place').value;
+                const aadhar = document.getElementById('aadhar').value;
+                const pan = document.getElementById('pan').value;
+
+                if (!isValidAge(dob)) {
+                    alert('Employee must be at least 18 years old.');
+                    return;
+                }
+
+                const empId = generateEmpId(firstName, mobile);
+                const employees = getEmployees();
+
+                if (employees.some(emp => emp.empId === empId)) {
+                    alert('Employee with this ID already registered.');
+                    return;
+                }
+
+                const registrationDate = new Date().toISOString().split('T')[0]; // Current date as registration date
+
+                const employeeData = {
+                    empId,
+                    firstName,
+                    lastName,
+                    mobile,
+                    dob,
+                    place,
+                    aadhar,
+                    pan,
+                    registrationDate
+                };
+
+                employees.push(employeeData);
+                saveEmployees(employees);
+
+                const messageBox = document.getElementById('messageBox');
+                messageBox.innerHTML = `
+                    <h4>Employee Registered Successfully</h4>
+                    <p><strong>Employee ID:</strong> ${empId}</p>
+                    <p><strong>Name:</strong> ${firstName} ${lastName}</p>
+                    <p><strong>Mobile:</strong> ${mobile}</p>
+                    <p><strong>Date of Birth:</strong> ${dob}</p>
+                    <p><strong>Place:</strong> ${place}</p>
+                    <p><strong>Aadhar:</strong> ${aadhar}</p>
+                    <p><strong>PAN:</strong> ${pan}</p>
+                `;
+                messageBox.style.display = 'block';
+            }
+
+            this.classList.add('was-validated');
+        }, false);
+    </script>
+
+</body>
+
+</html>
